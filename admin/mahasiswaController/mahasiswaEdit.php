@@ -1,5 +1,5 @@
 <?php 
-    include "../../koneksi/koneksi.php";
+    include "../koneksi/koneksi.php";
 
     $getNim = $_GET["nim"];
     $editMhs = "SELECT * FROM mahasiswa WHERE nim = '$getNim'";

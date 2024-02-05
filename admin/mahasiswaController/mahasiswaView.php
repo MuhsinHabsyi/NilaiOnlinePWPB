@@ -47,7 +47,7 @@
                 <td class = "value"><?php echo "$dataMhs[4]";?></td>
                 <td class = "value"> 
                     <!-- <a href="mahasiswaController/mahasiswaEdit.php?nim=<?php echo"$dataMhs[0]"?>">EDIT</a> | -->
-                    <a href="mahasiswaController/./?adm=mahasiswaEdit?nim=<?php echo"$dataMhs[0]"?>">EDIT</a> |
+                    <a href="./?adm=mahasiswaEdit&nim=<?php echo"$dataMhs[0]"?>">EDIT</a> |
                     <a href="mahasiswaController/mahasiswaDelete.php?nim=<?php echo"$dataMhs[0]"?>">DELETE</a>
                 </td>
             <tr>

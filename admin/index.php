@@ -1,3 +1,13 @@
+<?php 
+    include "../koneksi/koneksi.php";
+
+    $getNim = $_GET["nim"];
+    $editMhs = "SELECT * FROM mahasiswa WHERE nim = '$getNim'";
+    $resultMhs = mysqli_query($koneksi ,$editMhs);
+    // $dataMhs = mysqli_fetch_array($resultMhs);
+	$dataMhs = mysqli_fetch_array($resultMhs, MYSQLI_NUM)
+?>
+
 <!DOCTYPE html>
 
 <!-- Developed by Websquare Indonesia -->
@@ -67,6 +77,8 @@ if(empty($_GET)){
 		include ("nilaiController/nilaiView.php");
 	}elseif($_GET["adm"]=="nilaiAdd"){
 		include ("nilaiController/nilaiAdd.php");
+	}elseif($_GET["adm"]=="nilaiEdit"){
+		include ("nilaiController/nilaiEdit.php");
 	}
 }
 ?>

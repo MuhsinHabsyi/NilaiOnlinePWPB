@@ -43,7 +43,7 @@
                 <td class = "value"><?php echo "$dataDosen[2]";?></td>
                 <td class = "value"><?php echo "$dataDosen[3]";?></td>
                 <td class = "value"> 
-                    <a href="./?adm=dosenEdit?nip=<?php echo"$dataDosen[0]"?>">EDIT</a> |
+                    <a href="./?adm=dosenEdit&nip=<?php echo"$dataDosen[0]"?>">EDIT</a> |
                     <a href="dosenController/dosenDelete.php?nip=<?php echo"$dataDosen[0]"?>">DELETE</a>
                 </td>
             <tr>

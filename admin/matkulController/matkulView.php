@@ -38,7 +38,7 @@
                 <td class = "value"><?php echo "$dataMatkul[0]";?></td>
                 <td class = "value"><?php echo "$dataMatkul[1]";?></td>
                 <td class = "value"> 
-                    <a href="./?adm=matkulEdit?kode_mtkul=<?php echo"$dataMatkul[0]"?>">EDIT</a> |
+                    <a href="./?adm=matkulEdit&kode_mtkul=<?php echo"$dataMatkul[0]"?>">EDIT</a> |
                     <a href="matkulController/matkulDelete.php?kode_mtkul=<?php echo"$dataMatkul[0]"?>">DELETE</a>
                 </td>
             <tr>

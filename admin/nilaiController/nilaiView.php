@@ -54,7 +54,7 @@ $countNilai = mysqli_num_rows ($resultNilai);
                 <td class = "value"><?php echo "$dataNilai[6]";?></td>
                 <td class = "value"><?php echo "$dataNilai[7]";?></td>
                 <td class = "value"> 
-                    <a href="./?adm=nilaiEdit.php?nip=<?php echo"$dataNilai[0]"?>">EDIT</a> |
+                    <a href="./?adm=nilaiEdit&nip=<?php echo"$dataNilai[6]"?>&nim=<?php echo"$dataNilai[0]"?>">EDIT</a> |
                     <a href="nilaiController/nilaiDelete.php?nim=<?php echo"$dataNilai[0]"?>">DELETE</a>
                 </td>
             <tr>
